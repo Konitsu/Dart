@@ -11,7 +11,10 @@ void main() {
   StudentsAboveMedia(media);
 }
 
-//Função para preencher a lista de notas com notas aleatórias
+/*
+Função para preencher a lista de notas com notas aleatórias maiores que 7
+e menores que 10
+*/
 List FillsList() {
   var intValue;
   for (int k = 0; k < 12; k++) {
